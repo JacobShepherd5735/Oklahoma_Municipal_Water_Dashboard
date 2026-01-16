@@ -21,11 +21,12 @@ This repository contains:
 
 /docs/              # Documentation files
 
-LICENSE.md          # MIT License
+requirements.txt    # Python dependencies
+
+LICENSE             # MIT License
 
 README.md           # This document
 
-requirements.txt    # Python dependencies
 ```
 
 ### 3. Features
