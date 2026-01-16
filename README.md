@@ -26,6 +26,13 @@ requirements.txt
 * Automation using Windows Task Scheduler
 
 ### 4. Installation
+Create a virtual environment
 ```
-python -m venv venv # replace first "venv" with desired virtual environment name
+python -m venv venv        # replace first "venv" with desired virtual environment name
+venv\Scripts\activate      # Windows (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
+source venv/bin/activate   # Mac/Linux (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
+```
+Once your virtual environment has been created and activate, install dependencies
+```
+pip install -r requirements.txt
 ```
