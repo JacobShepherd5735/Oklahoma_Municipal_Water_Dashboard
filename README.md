@@ -79,7 +79,7 @@ These instructions do not include information for specific dashboard formatting,
 See LICENSE.md file
 
 ### 10. Contact Information
-Jacob Shepherd
-Department of Geography
-Oklahoma State University
-Jacob.Shepherd@okstate.edu
+* Jacob Shepherd
+* Department of Geography
+* Oklahoma State University
+* Jacob.Shepherd@okstate.edu
