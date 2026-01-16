@@ -12,11 +12,15 @@ This repository contains:
 
 ### 2. Repository Structure
 ```
-/scripts/
-/data/
-/docs/
-README.md
-requirements.txt
+/scripts/           # All scripts associated with this project
+
+/data/              # CSV outputs (main and versioned)
+
+/docs/              # Documentation files
+
+README.md           # This document
+
+requirements.txt    # Python dependencies
 ```
 
 ### 3. Features
