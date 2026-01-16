@@ -21,6 +21,8 @@ This repository contains:
 
 /docs/              # Documentation files
 
+LICENSE.md          # MIT License
+
 README.md           # This document
 
 requirements.txt    # Python dependencies
@@ -74,6 +76,7 @@ These instructions do not include information for specific dashboard formatting,
 * Extensive website redesigns may temporarily break scrapers. Logic and logging are included within the primary scraper script to assist with determining which scrapers encountered an issue so that you may identify and fix any potential issues caused by website updates.
 
 ### 9. License
+See LICENSE.md file
 
 ### 10. Contact Information
 Jacob Shepherd
