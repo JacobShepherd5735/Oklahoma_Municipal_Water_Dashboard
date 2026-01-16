@@ -1,6 +1,6 @@
 # Oklahoma Municipal Water Rates Dashboard
 
-### [View Project ArcGIS Dashboard](https://www.arcgis.com/apps/dashboards/38364b5628914dbc8b5145df3d99f680)
+### [View Project ArcGIS Dashboard (403 error, working to resolve)](https://www.arcgis.com/apps/dashboards/38364b5628914dbc8b5145df3d99f680)
 
 A Python-based data pipeline and ArcGIS Dashboard for tracking and visualizing municipal water rates across Oklahoma.
 
