@@ -1,5 +1,5 @@
 # Oklahoma Municipal Water Rates Dashboard
-##### A Python-based data pipeline and ArcGIS Dashboard for tracking and visualizing municipal water rates across Oklahoma.
+A Python-based data pipeline and ArcGIS Dashboard for tracking and visualizing municipal water rates across Oklahoma.
 
 ### 1. Overview
 This project is a semi-automated pipeline that collects, standardizes, and visualizes  municipal water rates across Oklahoma. These rates vary across Oklahoma for several reasons, including the use of different meter sizes, whether there is a base or minimum charge, whether uniform, declining, or inclining block rates are employed, and if water is measured in gallons or cubic feet. In addition, this project provides a central source for comparing and monitoring water rates over time, something that was easy to do before this project. 
@@ -11,11 +11,13 @@ This repository contains:
 * Documentation and instructions for installing and configuring this project to be expanded upon or used for other municipal utilies in the future.
 
 ### 2. Repository Structure
+```
 /scripts/
 /data/
 /docs/
 README.md
 requirements.txt
+```
 
 ### 3. Features
 * Web scraping with support for HTML, PDF, and JavaScript-rendered water rates
@@ -24,5 +26,6 @@ requirements.txt
 * Automation using Windows Task Scheduler
 
 ### 4. Installation
-```python -m venv venv # replace first "venv" with desired virtual environment name
+```
+python -m venv venv # replace first "venv" with desired virtual environment name
 ```
