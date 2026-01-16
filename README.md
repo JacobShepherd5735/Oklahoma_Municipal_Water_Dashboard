@@ -12,15 +12,15 @@ This repository contains:
 
 ### 2. Repository Structure
 ```
-/scripts/           *# All scripts associated with this project*
+/scripts/           # All scripts associated with this project
 
-/data/              *# CSV outputs (main and versioned)*
+/data/              # CSV outputs (main and versioned)
 
-/docs/              *# Documentation files*
+/docs/              # Documentation files
 
-README.md           *# This document*
+README.md           # This document
 
-requirements.txt    *# Python dependencies*
+requirements.txt    # Python dependencies
 ```
 
 ### 3. Features
@@ -32,9 +32,9 @@ requirements.txt    *# Python dependencies*
 ### 4. Installation
 Create a virtual environment
 ```
-python -m venv venv        *# replace first "venv" with desired virtual environment name*
-venv\Scripts\activate      *# Windows (if you renamed your virtual environment, replace "venv" here with your virtual environment name)*
-source venv/bin/activate   *# Mac/Linux (if you renamed your virtual environment, replace "venv" here with your virtual environment name)*
+python -m venv venv        # replace first "venv" with desired virtual environment name
+venv\Scripts\activate      # Windows (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
+source venv/bin/activate   # Mac/Linux (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
 ```
 Once your virtual environment has been created and activate, install dependencies
 ```
