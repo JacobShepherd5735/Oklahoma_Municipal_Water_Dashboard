@@ -5,17 +5,17 @@
 A Python-based data pipeline and ArcGIS Dashboard for tracking and visualizing municipal water rates across Oklahoma.
 
 ### 1. Overview
-This project is a semi-automated pipeline that collects, standardizes, and visualizes  municipal water rates across Oklahoma. These rates vary across Oklahoma for several reasons, including the use of different meter sizes, whether there is a base or minimum charge, whether uniform, declining, or inclining block rates are employed, and if water is measured in gallons or cubic feet. In addition, this project provides a central source for comparing and monitoring water rates over time, something that was easy to do before this project. 
+This project is a semi-automated pipeline that collects, standardizes, and visualizes  municipal water rates across Oklahoma. These rates vary across Oklahoma for several reasons, including the use of different meter sizes, whether there is a base or minimum charge, whether uniform, declining, or inclining block rates are employed, and whether water is measured in gallons or cubic feet. In addition, this project provides a central source for comparing and monitoring water rates over time, something that was easy to do before this project. 
 This repository contains:
 * A Python scraper script for 15 municipalities
 * A standardization method to compare rates using a 6,000-gallon per month benchmark
 * A sample Python script for how to automatically update the hosted table used by the ArcGIS Dashboard
 * Automated GitHub updating for versioned CSVs
-* Documentation and instructions for installing and configuring this project to be expanded upon or used for other municipal utilies in the future.
+* Documentation and instructions for installing and configuring this project to be expanded upon or used for other municipal utilities in the future.
 
 ### 2. Repository Structure
 ```
-/scripts/           # All scripts associated with this project
+/all scripts/       # All scripts associated with this project
 
 /data/              # CSV outputs (main and versioned)
 
@@ -42,7 +42,7 @@ python -m venv venv        # replace first "venv" with desired virtual environme
 venv\Scripts\activate      # Windows (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
 source venv/bin/activate   # Mac/Linux (if you renamed your virtual environment, replace "venv" here with your virtual environment name)
 ```
-Once your virtual environment has been created and activate, install dependencies
+Once your virtual environment has been created and activated, install dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -60,7 +60,7 @@ The Windows Task Scheduler job will:
 1. Scrape all available municipalities
 2. Standardize rates
 3. Update the main CSV
-4. Push the main CSV and a versioned CSV to this GitHub repository via and secondary script
+4. Push the main CSV and a versioned CSV to this GitHub repository via a secondary script
 Due to limitations, for this project, the user must manually update the AGOL hosted table with the main CSV to update the dashboard. See **docs/fully_automated_workflow.md** for instructions on how to fully automate the workflow.
 
 ### 7. ArcGIS Online Dashboard
