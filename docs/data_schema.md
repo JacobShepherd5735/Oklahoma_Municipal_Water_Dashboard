@@ -31,6 +31,7 @@ This field represents an estimated monthly water cost assuming 6,000 gallons of 
 ## Standardized Rate (Dashboard Widget)
 This field contains the same standardized value as the formatted standardized rate field, but is stored as a numeric value without currency symbols. This allows the field to be used in ArcGIS Dashboard indicators and charts.
 
+## Additional Notes
 A single municipality may be represented by multiple rows within the dataset, each corresponding to a distinct rate component. The standardized rate field, however, appears only once per municipality per collection date. 
 
 Null values indicate that a rate component does not apply to a given municipality or that a value was not scraped at the time the scraper was initialized.
