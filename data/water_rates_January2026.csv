@@ -1,0 +1,36 @@
+﻿Timestamp,ID,Name,Latitude,Longitude,Category,Type,Amount,"Standardized Rate (6,000 Gallons / Month)",Standardized Rate (Dashboard Widget)
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"5/8"" meter",$22.02 ,$54.18 ,54.18
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"3/4"" meter",$27.82 ,,
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"1"" meter",$50.59 ,,
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","0-2,000 gallons",$4.18 ,,
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","2,001-10,000 gallons",$5.95 ,,
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","10,0001-25,000 gallons",$8.31 ,,
+1/16/2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","Above 25,000 gallons",$11.08 ,,
+1/16/2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"3/4"" meter",$7.36 ,$34.78 ,34.78
+1/16/2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"1"" meter",$10.57 ,,
+1/16/2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"1-1/2"" meter",$16.68 ,,
+1/16/2026,2,Tulsa,36.15518,-95.98954,"Volume Rate (per 1,000 gallons)",Single Family Residential,$4.57 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,3/4 inch meter,$10.59 ,$74.64 ,74.64
+1/16/2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,1 inch meter,$21.44 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,1 1/2 inches meter,$43.73 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"up to 5,000 gallons",$10.59 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"5,000 - 12,000 gallons",$11.10 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"greater than 12,000 gallons",$12.38 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"up to 15,000 gallons",$10.59 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"15,000 - 33,000 gallons",$11.10 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"greater than 33,000 gallons",$12.38 ,,
+1/16/2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 1/2 inches or larger meter,"per 1,000 gallons",$10.80 ,,
+1/16/2026,4,Altus,34.63305,-99.33469,Monthly Minimum,Minimum Bill,$18.69 ,$36.97 ,36.97
+1/16/2026,4,Altus,34.63305,-99.33469,"Volume Rate (per 1,000 gallons)","0-2,000",$0 ,,
+1/16/2026,4,Altus,34.63305,-99.33469,"Volume Rate (per 1,000 gallons)","Over 2,000",$4.57 ,,
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","0-3 MG (MG = 1,000 gallons)",$23.38 Minimum,$27.52 ,27.52
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","4-20 MG (MG = 1,000 gallons)",$2.07 ,,
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","21-35 MG (MG = 1,000 gallons)",$2.14 ,,
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","36-50 MG (MG = 1,000 gallons)",$2.24 ,,
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","51-100 MG (MG = 1,000 gallons)",$2.36 ,,
+1/16/2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)","all over 100 (MG = 1,000 gallons)",$2.45 ,,
+1/16/2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","0-1,500 gallons",$12.00 ,$20.75 ,20.75
+1/16/2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","1,501-2,500 gallons",$2.28 ,,
+1/16/2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","2,501-4,500 gallons",$2.34 ,,
+1/16/2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","4,501-6,500 gallons",$2.39 ,,
+1/16/2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","6,501+ gallons",$2.45 ,,
