@@ -13,11 +13,9 @@ The scraper script is designed so that adding additional scrapers is straightfor
   - Under this function is where you will add the unique scraper code to scrape that municipality's data. You can choose to continue the logging and try/except logic or opt out of it. If you do wish to extend those, you may reference an already-made scraper to see how to incorporate those into the new scraper function.
   - After developing the scraper code, make sure to include the following code block to reference the necessary information when writing the results to the CSV:
 ```
-{
 lat, lon = self.municipality_coordinates["new_municipality"]
 uid = self.municipality_ids["new_municipality"]
 name = self.municipality_names["new_municipality"]
-}
 ```
 3. In `def run_all_scrapers(self)`, locate the scrapers list and add `self.scrape_new_municipality` to the end of the list.
 
