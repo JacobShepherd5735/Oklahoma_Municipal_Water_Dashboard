@@ -2,7 +2,7 @@
 
 The scraper script is designed so that adding additional scrapers is straightforward. Below are step-by-step instructions to add an additional scraper:
 
-Note: "new_municipality" is a placeholder name throughout these instructions. Please remember to replace this with the actual name of the municipality you are wishing to scrape.
+**Note:** "new_municipality" is a placeholder name throughout these instructions. Please remember to replace this with the actual name of the municipality you are wishing to scrape.
 
 1. In `class WaterRateScraper`, for each additional scraper, you must add:
   - A unique municipality ID under `self.municipality_ids`
