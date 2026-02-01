@@ -17,7 +17,7 @@ lat, lon = self.municipality_coordinates["new_municipality"]
 uid = self.municipality_ids["new_municipality"]
 name = self.municipality_names["new_municipality"]
 ```
-  - Standardization logic, similarly to the scraper code itself, will be unique to the municipality. Ultimately, the goal is to determine, at the smallest meter size (if applicable), how much it would cost for water if 6,000 gallons are used a month. This generally involves adding the smallest meter size's base charge with a combination of volumetric charges to reach the 6,000-gallon threshold. Again, referencing already-made scrapers will be the most helpful here to see how this is handled in various situations (see Oklahoma City's scraper for base charge + volumetric or Clinton's scraper for just volumetric).
+  - Standardization logic, similarly to the scraper code itself, will be unique to the municipality. Ultimately, the goal is to determine, at the smallest meter size (if applicable), how much it would cost for water if 6,000 gallons are used a month. This generally involves adding the smallest meter size's base charge with a combination of volumetric charges to reach the 6,000-gallon threshold. Again, referencing already-made scrapers will be the most helpful here to see how this is handled in various situations (see Oklahoma City's scraper for base charge + volumetric, or Clinton's scraper for just volumetric).
 3. In `def run_all_scrapers(self)`, locate the scrapers list and add `self.scrape_new_municipality` to the end of the list.
 
 If you wish to test this new municipality without running the entire script, you can comment out `scraper.run_all_scrapers()` under `if __name__ == "__main__"` and replace it with `scraper.scrape_new_municipality()`
