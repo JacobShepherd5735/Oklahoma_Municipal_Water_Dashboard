@@ -45,6 +45,7 @@ source venv/bin/activate   # Mac/Linux (if you renamed your virtual environment,
 Once your virtual environment has been created and activated, install dependencies
 ```
 pip install -r requirements.txt
+playwright install
 ```
 
 ### 5. Running the Scraper Script
