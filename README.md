@@ -55,7 +55,7 @@ To run the primary scraper script:
 ```
 python scrape_water_rates_data.py
 ```
-Output will be written with the filename "water_rates.csv"
+Two data outputs will be written, one with the filename "water_rates.csv" and the other with the filename "water_rates_monthyear.csv," along with a log to track any issues that occurred when the scraper script ran.
 
 ### 6. Automation Workflow
 A Windows Task Scheduler job can run the scraper at whatever frequency you desire. For this project, the Windows Task Scheduler job is set to run quarterly.
