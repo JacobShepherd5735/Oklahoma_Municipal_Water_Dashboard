@@ -11,7 +11,8 @@ This repository contains:
 * A standardization method to compare rates using a 6,000-gallon per month benchmark
 * A sample Python script for how to automatically update the hosted table used by the ArcGIS Dashboard
 * Automated GitHub updating for versioned CSVs
-* Documentation and instructions for installing and configuring this project to be expanded upon or used for other municipal utilities in the future.
+* Documentation detailing the architecture of the dashboard and instructions for updating the data behind it
+* Documentation and instructions for installing and configuring this project to be expanded upon or used for other municipal utilities in the future
 
 ### 2. Repository Structure
 ```
