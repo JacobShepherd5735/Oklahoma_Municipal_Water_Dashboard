@@ -66,11 +66,10 @@ The Windows Task Scheduler job will:
 Due to 2FA and AGOL role limitations, for this project, the user must manually update the AGOL hosted table with the main CSV to update the dashboard. See **docs/fully_automated_workflow.md** for instructions on how to fully automate the workflow if you do not have these limitations.
 
 ### 7. ArcGIS Online Dashboard
-The ```/docs/arcgis_dashboard_setup.md``` file describes:
-* Publishing municipality boundaries
-* Creating the initial hosted table from the CSV
-* Targeting the hosted table, list, and map
-* Update instructions for each new CSV upload
+The ```/docs/arcgis_dashboard_setup.md``` file:
+* Outlines the core ArcGIS Online components (web map, hosted feature layer, hosted table) used to build the dashboard
+* Explains how spatial and non-spatial data are combined within the web map and how they are used for various dashboard elements
+* Describes the dashboard’s update model and how new data flows into the existing structure without reconfiguration
 These instructions do not include information for specific dashboard formatting, including colors, element sizing, etc., due to personal preference and monitor size differences
 
 ### 8. Project Limitations
