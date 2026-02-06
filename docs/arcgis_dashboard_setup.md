@@ -65,6 +65,14 @@ This structure allows the dashboard to support both spatial exploration and time
 
 Under normal operations, the dashboard is designed so that data updates occur at the table level. When the hosted table is updated with new records, the dashboard reflects those changes without requiring modifications to the feature layer or web map.
 
+To update the data, the easiest method is to overwrite the hosted table with the most recent version of the water_rates.csv file. The process of doing this automatically is described in `docs/fully_automated_workflow.md`. To update the table manually in ArcGIS Online:
+* Select the hosted table from your contents.
+* In the "Overview" tab, click the "Update data" button.
+* Select "Overwrite entire feature layer" from the options presented.
+* Search for and select the most recently run water_rates.csv file (do not select a versioned (dated) csv as this could cause issues with certain indicators).
+* The overwrite should occur automatically after this step. Confirm by reviewing the hosted table and looking for the newly added data.
+* Confirm within the dashboard that any indicators and charts accepted the overwrite. These elements can be finicky, and even though no schema change occurred, they could still lose field name formatting or forget which field to reference.
+
 The number of municipalities displayed and studied can be expanded on, however. This requires changes to the hosted feature layer, ideally appending new municipality polygon geometries via ArcGIS Pro. This process is straightforward so long as the data schema within your feature classes is maintained.
 
 ---
