@@ -46,4 +46,4 @@ This field contains the same standardized value as the formatted standardized ra
 ## Additional Notes
 A single municipality may be represented by multiple rows within the dataset, each corresponding to a distinct rate component. The standardized rate field, however, appears only once per municipality per collection date. 
 
-Null values indicate that a rate component does not apply to a given municipality or that a value was not scraped at the time the scraper was initialized.
+Null values indicate that a rate component does not apply to a given municipality or that a value was not scraped at the time the scraper was initialized. If null values appear where unexpected, consult the `scrapper.log` file generated when the scraper was run.
