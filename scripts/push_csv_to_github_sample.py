@@ -37,10 +37,10 @@ def run_command(command, cwd=None):
 # Main Logic
 
 def main():
-    main_csv = output_directory / main_csv
+    main_csv_path = output_directory / main_csv
 
-    if not main_csv.exists():
-        raise FileNotFoundError(f"Main CSV not found: {main_csv}")
+    if not main_csv_path.exists():
+        raise FileNotFoundError(f"Main CSV not found: {main_csv_path}")
 
     # Find versioned CSV (e.g., water_rates_January2026.csv)
     run_csvs = sorted(
@@ -64,22 +64,22 @@ def main():
     data_dir = clone_directory / data_directory
     data_dir.mkdir(exist_ok=True)
 
-    # Destination paths
-    main_csv_path = data_dir / main_csv
-    run_csv_path = data_dir / run_csv.name
+    # Destination paths (inside repo)
+    dest_main_csv_path = data_dir / main_csv
+    dest_run_csv_path = data_dir / run_csv.name
 
     # Copy CSVs
-    shutil.copy2(main_csv, main_csv_path)
-    shutil.copy2(run_csv, run_csv_path)
+    shutil.copy2(main_csv_path, dest_main_csv_path)
+    shutil.copy2(run_csv, dest_run_csv_path)
 
     print("Copied CSVs:")
-    print(f" - {main_csv_path}")
-    print(f" - {run_csv_path}")
+    print(f" - {dest_main_csv_path}")
+    print(f" - {dest_run_csv_path}")
 
     # Git add, commit, push
     run_command("git add data", cwd=clone_directory)
 
-    commit_message = f"Update water rate data ({run_csv.stem})"
+    commit_message = f"Automated update of water rates data"
     run_command(f'git commit -m "{commit_message}"', cwd=clone_directory)
 
     run_command("git push", cwd=clone_directory)
