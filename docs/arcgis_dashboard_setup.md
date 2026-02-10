@@ -22,7 +22,7 @@ The dashboard is built from three primary ArcGIS Online components:
 
 ## Hosted Feature Layer
 
-The hosted feature layer contains polygon geometries representing municipal boundaries. Each feature corresponds to a single municipality and includes a unique identifier field (`unique_id`).
+The hosted feature layer contains polygon geometries representing municipal boundaries. These polygon boundaries were obtained from OKMaps.org (https://okmaps.org/ogi/search.aspx). One feature corresponds to one municipality, and includes a unique identifier field (`unique_id`).
 
 Primary roles:
 - Provides the spatial context for the dashboard
@@ -35,7 +35,7 @@ Primary roles:
 The hosted table stores time-stamped residential water rate data. Unlike the feature layer, the table contains no geometry and includes multiple records per municipality to support temporal analysis.
 
 Primary roles:
-- Stores historical and current rate observations
+- Stores historical and current water rate observations
 - Serves as the data source for charts, indicators, and time-series elements
 
 ---
@@ -70,10 +70,10 @@ To update the data, the easiest method is to overwrite the hosted table with the
 * In the "Overview" tab, click the "Update data" button.
 * Select "Overwrite entire feature layer" from the options presented.
 * Search for and select the most recently run water_rates.csv file (do not select a versioned (dated) csv as this could cause issues with certain indicators).
-* The overwrite should occur automatically after this step. Confirm by reviewing the hosted table and looking for the newly added data.
-* Confirm within the dashboard that any indicators and charts accepted the overwrite. These elements can be finicky, and even though no schema change occurred, they could still lose field name formatting or forget which field to reference.
+* The overwrite should occur automatically after this step. Confirm by reviewing the hosted table and looking for the newly added rows.
+* Confirm within the dashboard that any indicators and charts accepted the overwrite. These elements can be finicky, and even though no schema change occurred, they could still lose field name formatting or forget which field to reference, regardless of if the overwrite was done manually or automatically.
 
-The number of municipalities displayed and studied can be expanded on, however. This requires changes to the hosted feature layer, ideally appending new municipality polygon geometries via ArcGIS Pro. This process is straightforward so long as the data schema within your feature classes is maintained.
+The number of municipalities displayed and studied can be expanded on too. This requires changes to the hosted feature layer, ideally appending new municipality polygon geometries via ArcGIS Pro. This process is straightforward so long as the data schema within your feature classes is maintained.
 
 ---
 
