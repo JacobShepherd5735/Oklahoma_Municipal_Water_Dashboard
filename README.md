@@ -38,6 +38,10 @@ requirements.txt    # Python dependencies
 * Automation using Windows Task Scheduler
 
 ### 4. Installation
+System requirements:
+* Python (scripts were developed on version 3.12.10)
+* Git (with SSH access to GitHub)
+
 Create a virtual environment
 ```
 python -m venv venv        # replace first "venv" with desired virtual environment name
