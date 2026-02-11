@@ -71,7 +71,7 @@ The Windows Task Scheduler job will:
 4. Create a versioned CSV
 5. Push the main CSV and a versioned CSV to this GitHub repository via a secondary script
 
-Due to 2FA and AGOL role limitations, for this project, the user must manually update the AGOL hosted table with the main CSV to update the dashboard. See **docs/fully_automated_workflow.md** for instructions on how to fully automate the workflow if you do not have these limitations.
+Due to 2FA and AGOL role limitations, for this project, the user must manually update the AGOL hosted table with the main CSV to update the dashboard. See ```docs/fully_automated_workflow.md``` for instructions on how to fully automate the workflow if you do not have these limitations.
 
 ### 7. ArcGIS Online Dashboard
 The ```/docs/arcgis_dashboard_setup.md``` file:
