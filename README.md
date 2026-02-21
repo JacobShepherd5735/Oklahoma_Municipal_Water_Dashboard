@@ -37,7 +37,7 @@ requirements.txt    # Python dependencies
 * An ArcGIS Dashboard to visualize, compare, and track water rates from across Oklahoma
 * Automation using Windows Task Scheduler
 
-### 4. Installation (yeet)
+### 4. Installation
 System requirements:
 * Python (scripts were developed on version 3.12.10)
 * Git (with SSH access to GitHub)
