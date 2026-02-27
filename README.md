@@ -31,7 +31,7 @@ requirements.txt    # Python dependencies
 ```
 
 ### 3. Features
-* Web scraping with support for HTML, PDF, and JavaScript-rendered water rates
+* Web scraping with support for HTML, PDF, and embedded JSON water rates
 * Standardized monthly water cost calculation (assuming 6,000 gallons used per month)
 * CSV output for use in the project's ArcGIS Dashboard and for tracking historical water rates
 * An ArcGIS Dashboard to visualize, compare, and track water rates from across Oklahoma
@@ -51,8 +51,6 @@ source venv/bin/activate   # Mac/Linux (if you renamed your virtual environment,
 Once your virtual environment has been created and activated, install dependencies
 ```
 pip install -r requirements.txt
-
-playwright install
 ```
 
 ### 5. Running the Scraper Script
