@@ -80,7 +80,9 @@ Each scraper:
 
 ## Helper Functions
 `get_timestamp()`: Returns formatted date string for row-level tracking
+
 `dollar_to_float(text)`: Converts strings like "$12.34" into "12.34" and can handle dollar signs, commas, and empty values
+
 `write_to_csv(...)`: Centralized CSV writing logic
 
 ---
@@ -129,6 +131,7 @@ This script demonstrates handling of multiple common municipal site structures:
 
 ## Orchestration
 The master runner `run_all_scrapers()` builds a list of scraper functions and executes them sequentially.
+
 PDF-based scrapers use lambdas to pass file paths, for example: `lambda: self.scrape_stillwater("Local_Stillwater_PDF.pdf")`. This keeps the orchestration clean while supporting arguments.
 
 ---
