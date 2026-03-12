@@ -80,7 +80,7 @@ These instructions do not include information for specific dashboard formatting,
 
 ### 8. Project Limitations
 * Some water rates are in the form of scanned-image PDFs, which were found to require Optical Character Recognition (OCR) software. OCR was not included in this project due to the system-level dependency required, which would significantly reduce this project's replicability. Those municipality's rates are still recorded, but hardcoded and must be updated once a year.
-* Updating the ArcGIS Dashboard's hosted table requires manual action at present due to dual-factor authentication (2FA) and AGOL role limitations. If you do not face these same limitations, see ```docs/fully_automated_workflow.md``` for instructions on how to fully automate this workflow.
+* Updating the ArcGIS Dashboard's hosted table requires manual action at present due to dual-factor authentication (2FA) and AGOL role limitations. If you do not face these same limitations, see ```docs/pipeline_configuration.md``` for instructions on how to fully automate this workflow.
 * Extensive website redesigns may temporarily break scrapers. Logic and logging are included within the primary scraper script to assist with determining which scrapers encountered an issue so that you may identify and fix any potential issues caused by website updates.
 
 ### 9. License
