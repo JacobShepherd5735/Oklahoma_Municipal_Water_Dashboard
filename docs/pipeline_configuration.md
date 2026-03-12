@@ -70,33 +70,100 @@ Scheduled run dates:
 Below are step-by-step instructions for how to set up the task in Windows Task Scheduler:
 
 ### Step 1: Confirm the Script Works Manually
-Type
+Before scheduling automation, verify the pipeline runs successfully.
+
+Open Command Prompt and run:
+
+```venv\Scripts\python.exe run_sequence.py```
+
+Confirm that:
+- The CSV file updates
+- A commit is pushed to GitHub
+- The ArcGIS Online table updates (if applicable)
 
 ### Step 2: Locate the Virtual Environment Python Interpreter
-Type
+This project uses a Python virtual environment.
+
+Navigate to:
+
+```project_folder/venv/Scripts/python.exe```
+
+The full path will resemble:
+
+```C:\path\to\project_folder\venv\Scripts\python.exe```
+
+This interpreter must be used by Windows Task Scheduler so that all required dependencies are available.
 
 ### Step 3: Open Windows Task Scheduler
-Type
+1. Press the Windows key
+2. Search for Task Scheduler
+3. Open the application
 
 ### Step 4: Create a New Task
-Type
+Click ```Create Task```, do **not** use "Create Basic Task".
 
 ### Step 5: Configure the General Tab
-Type
+Name: ```Water_Rates_Pipeline```
+
+Recommended settings:
+- Run whether user is logged on or not
+- Run with highest privileges
 
 ### Step 6: Configure the Trigger
-Type
+Open the **Triggers** tab and click **New.**
+
+Settings:
+- Begin the task: On a schedule
+- Schedule type: Monthly
+
+Select the following months:
+- January
+- April
+- July
+- October
+
+Select:
+Day: 1
+
+Set the start time in the **Start** field (for example: ```12:00 PM```)
 
 ### Step 7: Configure the Action
-Type
+Open the **Actions** tab and click **New.**
+
+Action: ```Start a program```
+
+Program/script: ```C:\path\to\project\venv\Scripts\python.exe```
+
+Add arguements: ```run_sequence.py```
+
+Start in: ```C:\path\to\project_folder```
+
+This ensures the script executes within the correct working directory.
 
 ### Step 8: Recommended Settings
-Type
+Under the **Settings** tab, enable:
+- Allow task to be run on demand
+- Run task as soon as possible after a scheduled start is missed
+
+These settings ensure the task runs even if the system was powered off at the scheduled time.
 
 ### Step 9: Test the Task
-Type
+After creating the task:
+- Locate it in Task Scheduler
+- Right-click the task
+- Select **Run**
+
+Confirm that:
+- The scraping script executed
+- The CSV file updated
+- A commit is pushed to GitHub
+- The ArcGIS Online table updates (if applicable)
 
 ---
 
 ## Maintenance
-Type
+To maintain the automation workflow:
+- Periodically verify the scheduled task runs successfully
+- Monitor script logs for scraping failures
+- Confirm ArcGIS Online credentials remain valid (if applicable)
+- Update scraping logic if source websites change structure
