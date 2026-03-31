@@ -18,6 +18,8 @@ uid = self.municipality_ids["new_municipality"]
 name = self.municipality_names["new_municipality"]
 ```
   - Standardization logic, similarly to the scraper code itself, will be unique to the municipality. Ultimately, the goal is to determine, at the smallest meter size (if applicable), how much it would cost for water if 6,000 gallons are used a month. This generally involves adding the smallest meter size's base charge with a combination of volumetric charges to reach the 6,000-gallon threshold. Again, referencing already-made scrapers will be the most helpful here to see how this is handled in various situations (see Oklahoma City's scraper for base charge + volumetric, or Clinton's scraper for just volumetric).
-3. In `def run_all_scrapers(self)`, locate the scrapers list and add `self.scrape_new_municipality` to the end of the list.
+3. In `def run_all_scrapers(self)`, locate the scraper batches:
+  - Start a new batch every 3-4 scrapers to ensure the script does not become overwhemled sending requests.
+  - Refer to existing batches to copy and paste, then replace copied "self.scrape_municipality" with the new municipalities being added.
 
 If you wish to test this new municipality without running the entire script, you can comment out `scraper.run_all_scrapers()` under `if __name__ == "__main__"` and replace it with `scraper.scrape_new_municipality()`. On occasion, attempting to run a test like this could result in keyboard interrupts if playwright or pdfplumber are hanging, since they are imported before the main block runs. If this occurs, comment out those imports and uncomment them once testing is finished.
