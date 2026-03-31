@@ -23,6 +23,7 @@ Standard Library:
 - `os`: File checks and environment variables
 - `csv`: CSV writing
 - `json`: Parsing embedded Nuxt JSON data
+- `time`: Throttling requests
 - `logging`: Structured runtime logging
 - `datetime`: Timestamping and dynamic filenaming
 
@@ -83,6 +84,8 @@ Each scraper:
 
 `dollar_to_float(text)`: Converts strings like "$12.34" into "12.34" and can handle dollar signs, commas, and empty values
 
+`safe_pause(seconds)`: Ensures pauses between batches will not be interrupted by an IDE KeyboardInterrupt
+
 `write_to_csv(...)`: Centralized CSV writing logic
 
 ---
@@ -130,7 +133,9 @@ This script demonstrates handling of multiple common municipal site structures:
 ---
 
 ## Orchestration
-The master runner `run_all_scrapers()` builds a list of scraper functions and executes them sequentially.
+The orchestrator `run_all_scrapers()` builds a list of scraper functions and executes them in batches.
+
+Initially, this script was built to run all scrapers sequentially. However, during testing, this resulted in too many requests getting sent and the script failing despite the code itself having no issue. As a result, batch executation was implimented. Four batches of scrapers are launched sequentially, with 3 second pauses in between each batch, to ensure the script runs while not sending too many requests at one time. 
 
 PDF-based scrapers use lambdas to pass file paths, for example: `lambda: self.scrape_stillwater("Local_Stillwater_PDF.pdf")`. This keeps the orchestration clean while supporting arguments.
 
