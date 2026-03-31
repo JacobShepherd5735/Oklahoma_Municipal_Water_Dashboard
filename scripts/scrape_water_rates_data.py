@@ -433,7 +433,7 @@ class WaterRateScraper:
 
     def scrape_guymon(self):
         try:
-            self.logger.info("Starting Guymon scraper (Nuxt final version)...")
+            self.logger.info("Starting Guymon scraper...")
 
             url = "https://www.guymonok.org/o/cog/page/drinking-water"
 
