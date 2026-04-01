@@ -1,0 +1,75 @@
+Timestamp,ID,Name,Latitude,Longitude,Category,Type,Amount,"Standardized Rate (6,000 Gallons / Month)",Standardized Rate (Dashboard Widget)
+04-01-2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,3/4 inch meter,$10.59,$74.64,74.64
+04-01-2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,1 inch meter,$21.44,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Monthly Meter Base Charge,1 1/2 inches meter,$43.73,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"up to 5,000 gallons",$10.59,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"5,000 - 12,000 gallons",$11.10,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 3/4 inch meter,"greater than 12,000 gallons",$12.38,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"up to 15,000 gallons",$10.59,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"15,000 - 33,000 gallons",$11.10,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 inch meter,"greater than 33,000 gallons",$12.38,,
+04-01-2026,3,Stillwater,36.11393,-97.05681,Volume Rate at 1 1/2 inches or larger meter,"per 1,000 gallons",$10.80,,
+04-01-2026,8,Edmond,35.65488,-97.48011,Monthly Meter Base Charge,"5/8, 3/4, & Multi Family",$17.88,$62.18,62.17999999999999
+04-01-2026,8,Edmond,35.65488,-97.48011,"Volume Rate (per 1,000 gallons)","2,000 to 10,000 gallons",$8.86,,
+04-01-2026,8,Edmond,35.65488,-97.48011,"Volume Rate (per 1,000 gallons)","11,000 to 20,000 gallons",$10.24,,
+04-01-2026,8,Edmond,35.65488,-97.48011,"Volume Rate (per 1,000 gallons)","21,000 & over gallons",$12.79,,
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","0-2,000 gallons",$29.79,$66.39,66.39
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","2,001-10,000 gallons",$9.15,,
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","10,001-15,000 gallons",$9.65,,
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","15,001-20,000 gallons",$10.19,,
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","20,001-25,000 gallons",$10.71,,
+04-01-2026,11,Piedmont,35.6524,-97.74925,"Volume Rate (per 1,000 gallons)","25,000+ gallons",$11.24,,
+04-01-2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"3/4"" meter",$7.36,$34.78,34.78
+04-01-2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"1"" meter",$10.57,,
+04-01-2026,2,Tulsa,36.15518,-95.98954,Monthly Meter Base Charge,"1-1/2"" meter",$16.68,,
+04-01-2026,2,Tulsa,36.15518,-95.98954,"Volume Rate (per 1,000 gallons)",Single Family Residential,$4.57,,
+04-01-2026,7,Broken Arrow,36.05106,-95.78998,Monthly Meter Base Charge,"3/4"" or less in size meter",$13.05,$54.21,54.21000000000001
+04-01-2026,7,Broken Arrow,36.05106,-95.78998,Monthly Meter Base Charge,"1"" meter",$14.25,,
+04-01-2026,7,Broken Arrow,36.05106,-95.78998,"Volume Rate (per 1,000 gallons)",Residential,$6.86,,
+04-01-2026,12,Enid,36.39054,-97.88309,Monthly Meter Base Charge,Base Rate,$13.28,$47.96,47.96
+04-01-2026,12,Enid,36.39054,-97.88309,"Volume Rate (per 1,000 gallons)","From 2,000 Gallons",$8.67,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Monthly Meter Base Charge,"5/8"" meter",$18.68,$64.68,64.68
+04-01-2026,13,Muskogee,35.74853,-95.37151,Monthly Meter Base Charge,"1"" meter",$38.31,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),Qualified Elderly,$4.95,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),Next 100 Cubic Feet,$6.29,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),"Next 1,600 Cubic Feet",$5.55,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),"Next 4,000 Cubic Feet",$4.24,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),"Next 10,000 Cubic Feet",$3.88,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),"Next 20,000 Cubic Feet",$3.31,,
+04-01-2026,13,Muskogee,35.74853,-95.37151,Volume Rate (per 100 cubic feet),"Over 40,000 Cubic Feet",$2.26,,
+04-01-2026,14,McAlester,34.9339,-95.76814,"Volume Rate (per 1,000 gallons)","0-2,244 gallons",$14.70,$41.44,41.44
+04-01-2026,14,McAlester,34.9339,-95.76814,"Volume Rate (per 1,000 gallons)","Over 2,244 gallons",$7.12,,
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","0-2,000 gallons",$27.39,$67.43,67.43
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","2,001-4,000 gallons",$9.61,,
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","4,001-14,000 gallons",$10.41,,
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","14,001-100,000 gallons",$12.36,,
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","100,001-500,000 gallons",$11.44,,
+04-01-2026,15,Clinton,35.51578,-98.96539,"Volume Rate (per 1,000 gallons)","Over 500,000 gallons",$9.61,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"5/8"" meter",$22.02,$54.18,54.18
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"3/4"" meter",$27.82,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,Monthly Meter Base Charge,"1"" meter",$50.59,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","0-2,000 gallons",$4.18,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","2,001-10,000 gallons",$5.95,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","10,0001-25,000 gallons",$8.31,,
+04-01-2026,1,Oklahoma City,35.46755,-97.52065,"Volume Rate (per 1,000 gallons)","Above 25,000 gallons",$11.08,,
+04-01-2026,9,Norman,35.22179,-97.44702,Monthly Meter Base Charge,Residential Base Fee,$10.90,$32.70,32.7
+04-01-2026,9,Norman,35.22179,-97.44702,"Volume Rate (per 1,000 gallons)","0-5,000 gallons",$3.46,,
+04-01-2026,9,Norman,35.22179,-97.44702,"Volume Rate (per 1,000 gallons)","5,001-15,000 gallons",$4.50,,
+04-01-2026,9,Norman,35.22179,-97.44702,"Volume Rate (per 1,000 gallons)","15,001-20,000 gallons",$6.75,,
+04-01-2026,9,Norman,35.22179,-97.44702,"Volume Rate (per 1,000 gallons)","Over 20,000 gallons",$9.51,,
+04-01-2026,10,Pryor,36.30797,-95.31454,Monthly Base Charge,Residential,$11.40,$34.20,34.2
+04-01-2026,10,Pryor,36.30797,-95.31454,"Volume Rate (per 1,000 gallons)",All additional usage,$5.70,,
+04-01-2026,4,Altus,34.63305,-99.33469,Monthly Minimum,Minimum Bill,$18.69,$36.97,36.97
+04-01-2026,4,Altus,34.63305,-99.33469,"Volume Rate (per 1,000 gallons)","0-2,000",$0,,
+04-01-2026,4,Altus,34.63305,-99.33469,"Volume Rate (per 1,000 gallons)","Over 2,000",$4.57,,
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",0-5 MG,$23.67 Minimum,$26.99,26.990000000000002
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",6-20 MG,$3.32,,
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",21-35 MG,$3.44,,
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",36-50 MG,$3.59,,
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",51-100 MG,$3.79,,
+04-01-2026,5,Guymon,36.68258,-101.48171,"Volume Rate (per 1,000 gallons)",all over 100,$3.93,,
+04-01-2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","0-1,500 gallons",$12.00,$20.75,20.75
+04-01-2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","1,501-2,500 gallons",$2.28,,
+04-01-2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","2,501-4,500 gallons",$2.34,,
+04-01-2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","4,501-6,500 gallons",$2.39,,
+04-01-2026,6,Broken Bow,34.02916,-94.73822,"Volume Rate (per 1,000 gallons)","6,501+ gallons",$2.45,,
