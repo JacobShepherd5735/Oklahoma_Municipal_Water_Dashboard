@@ -2,7 +2,7 @@
 
 ### Link to Project ArcGIS Dashboard: https://www.arcgis.com/apps/dashboards/38364b5628914dbc8b5145df3d99f680
 
-A Python-based data pipeline and ArcGIS Dashboard for tracking and visualizing municipal residential water rates across Oklahoma.
+A Python-based data workflow and ArcGIS Dashboard for tracking and visualizing municipal residential water rates across Oklahoma.
 
 ### 1. Overview
 This project is a semi-automated pipeline that collects, standardizes, and visualizes municipal residential water rates across Oklahoma. These rates vary across Oklahoma for several reasons, including the use of different meter sizes, whether there is a base or minimum charge, whether uniform, declining, or inclining block rates are employed, and whether water is measured in gallons or cubic feet. In addition, this project provides a central source for comparing and monitoring water rates over time, something that was not easy to do before this project. 
